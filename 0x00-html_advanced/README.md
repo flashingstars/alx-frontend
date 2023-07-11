@@ -20,161 +20,162 @@
 0. Create your first HTML file 0-index.html with:
 
 	- Add the doctype on the first line (without any comment)
-	- After the doctype, open and close a html tag
-	- Add the language tag, specify English for ISO language code and add the direction tag (ltr or rtl) on the html tag.
+	- After the doctype, open and close a _html_ tag
+	- Add the language tag, specify English for __ISO language code__ and add the direction tag (ltr or rtl) on the _html_ tag.
 	- Open your file in your browser (the page should be blank)
 __W3C won’t pass - you can ignore it__
 
 1. Copy the content of 0-index.html into 1-index.html
 
-Create the head and body sections
+__Create the head and body sections__
 
-	- inside the html tag, create the head and body tags (empty) in this order
+	- inside the _html_ tag, create the _head_ and _body_ tags (empty) in this order
 __W3C won’t pass - you can ignore it__
 
 2. Copy the content of 1-index.html into 2-index.html
 
-Meta charset:
+__Meta charset:__
 
-	- add a meta tag inside the head:
-		- add the charset attribute with the value utf-8
-Viewport:
+	- add a _meta_ tag inside the _head_:
+		- add the _charset_ attribute with the value _utf-8_
+__Viewport:__
 
-	- add a meta tag inside the head:
-		- add an attribute name on the tag and specify that it is the meta viewport
-		- add the key width with the value device-width
-		- add the key initial-scale with the value 1.0
-		- add the key viewport-fit with the value cover
-Title:
+	- add a _meta_ tag inside the _head_:
+		- add an attribute _name_ on the tag and specify that it is the meta _viewport_
+		- add the key _width_ with the value _device-width_
+		- add the key _initial-scale_ with the value _1.0_
+		- add the key _viewport-fit_ with the value _cover_
+__Title:__
 
-	- add the title tag just after the meta viewport with value: Homepage - Techium
-Description:
+	- add the _title_ tag just after the meta viewport with value: _Homepage - Techium_
 
-	- add a meta tag inside the head section
-		- add an attribute name on the tag and specify that is the meta description
-		- add another attribute called content
-		- add the following description: Techium is a digital agency
-Favicons:
+__Description:__
+
+	- add a _meta_ tag inside the head section
+		- add an attribute _name_ on the tag and specify that is the meta _description_
+		- add another attribute called _content_
+		- add the following description: _Techium is a digital agency_
+__Favicons:__
 
 	- download the image above to use as a favicon
 	- Use the tool at https://realfavicongenerator.net/ to generate all the favicon formats
-	- take the favicon.ico and favicon.png and place these at the root of your project directory, so that it is siblings with your [0-9]+-index.html files.
-	- inside the head, create 2 link tags with these 3 attributes: rel, type, and href.
-		- the first link tag:
-			- rel: icon
-			- type: image/x-icon
-			- href: ./favicon.ico
-		- the second link tag:
-			- rel: icon
-			- type: image/png
-			- href: ./favicon.png
+	- take the _favicon.ico_ and _favicon.png_ and place these at the root of your project directory, so that it is siblings with your [0-9]+-index.html files.
+	- inside the _head_, create 2 _link_ tags with these 3 attributes: __rel, type,__ and __href__.
+		- the first _link_ tag:
+			- rel: _icon_
+			- type: _image/x-icon_
+			- href: _./favicon.ico_
+		- the second _link_ tag:
+			- rel: _icon_
+			- type: _image/png_
+			- href: _./favicon.png_
 
 3. Copy the content of 2-index.html into 3-index.html
 
-Header:
+__Header:__
 
-	- create the header of your page between the open and close body tag
-	- put the text Header inside the header
+	- create the _header_ of your page between the open and close _body_ tag
+	- put the text _Header_ inside the header
 Main:
 
-	- create the main tag after the header tag
-		- put the text Main content inside your main tags
+	- create the _main_ tag after the _header_ tag
+		- put the text _Main content_ inside your _main_ tags
 Footer:
 
-	- create the footer tag after the main tag
-		-put the text Footer inside the footer tags
+	- create the _footer_ tag after the _main_ tag
+		-put the text _Footer_ inside the _footer_ tags
 
 4. Copy the contents of 3-index.html into article.html
 
-	- change the \<title\> to put: Article - Techium
-	- inside the main tags
-		- after the text, create the aside tags with text Aside
+	- change the _\<title\>_ to put: _Article - Techium_
+	- inside the _main_ tags
+		- after the text, create the _aside_ tags with text _Aside_
 
 5. Copy the content of 3-index.html into 5-index.html
 
-	- inside your <main> section
-		- remove the text in main, create these sections:
-			1. create first section and put the text Hero section inside
-			2. create second section and put the text Services section inside
-			3. create third section and put the text Works section inside
-			4. create fourth section and put the text About section inside
-			5. create fifth section and put the text Latest news section inside
-			6. create sixth section and put the text Testimonials section inside
-			7. create seventh section and put the text Contact section inside
+	- inside your _\<main\>_ section
+		- remove the text in _main_, create these sections:
+			1. create first section and put the text _Hero section_ inside
+			2. create second section and put the text _Services section_ inside
+			3. create third section and put the text _Works section_ inside
+			4. create fourth section and put the text _About section_ inside
+			5. create fifth section and put the text _Latest news section_ inside
+			6. create sixth section and put the text _Testimonials section_ inside
+			7. create seventh section and put the text _Contact section_ inside
 __Does not need to pass W3C__
 
 6. Copy the content of 5-index.html into 6-index.html
 
-Work articles:
+__Work articles:__
 
-	- inside the section Works section
-		- add 3 article tags
-			- inside each article write Work # where the hashtag will be the ordered number (1, 2, or 3)
-News articles:
+	- inside the section _Works section_
+		- add 3 _article_ tags
+			- inside each _article_ write _Work \#_ where the hashtag will be the ordered number (1, 2, or 3)
+__News articles:__
 
-	- inside the section Latest news section
-		- add 3 article tags
-			- inside each article write Article # where the hashtag will be the ordered number (1, 2, or 3)
-Testimonial articles:
+	- inside the section _Latest news section_
+		- add 3 _article_ tags
+			- inside each _article_ write _Article \#_ where the hashtag will be the ordered number (1, 2, or 3)
+__Testimonial articles:__
 
-	- inside the section Testimonials section
-		- add 3 article tags
-			- inside each article write Testimonial # where the hashtag will be the ordered number (1, 2, or 3)
+	- inside the section _Testimonials section_
+		- add 3 _article_ tags
+			- inside each _article_ write _Testimonial \#_ where the hashtag will be the ordered number (1, 2, or 3)
 __W3C won’t pass - you can ignore it__
 
 7. Copy the content of 6-index.html into 7-index.html
 
-	- remove the Header text inside the <header>
-	- create the nav tag inside the header tag
+	- remove the _Header_ text inside the _\<header\>_
+	- create the _nav_ tag inside the _header_ tag
 		- it should remain empty for now
 __Does not need to pass W3C__
 
 8. Copy the content of 7-index.html into 8-index.html
 
-	- create the level 1 heading inside your main before your sections
-		- put text Homepage in your heading tag
+	- create the level 1 heading inside your _main_ before your sections
+		- put text _Homepage_ in your heading tag
 __Does not need to pass W3C__
 
 9. Copy the content of 8-index.html into 9-index.html
 
-	- in the section tag with the the text Hero section, remove the text and create a level 2 heading with text We help you build your brand!
-	- in the section tag with the the text Services section, remove the text and create a level 2 heading with text Services
-	- in the section tag with the the text Works section, remove the text and create a level 2 heading with text Works
-	- in the section tag with the the text About section, remove the text and create a level 2 heading with text About Us
-	- in the section tag with the the text Latest news section, remove the text and create a level 2 heading with text Latest news
-	- in the section tag with the the text Testimonials section, remove the text and create a level 2 heading with text Testimonials
-	- in the section tag with the the text Contact section, remove the text and create a level 2 heading with text Contact
+	- in the _section_ tag with the the text _Hero section_, remove the text and create a level 2 heading with text _We help you build your brand!_
+	- in the _section_ tag with the the text _Services section_, remove the text and create a level 2 heading with text _Services_
+	- in the _section_ tag with the the text _Works section_, remove the text and create a level 2 heading with text _Works_
+	- in the _section_ tag with the the text _About section_, remove the text and create a level 2 heading with text _About Us_
+	- in the _section_ tag with the the text _Latest news section_, remove the text and create a level 2 heading with text _Latest news_
+	- in the _section_ tag with the the text _Testimonials section_, remove the text and create a level 2 heading with text _Testimonials_
+	- in the _section_ tag with the the text _Contact section_, remove the text and create a level 2 heading with text _Contact_
 __W3C won’t pass - you can ignore it__
 
 10. Copy the content of 9-index.html into 10-index.html
 
-Services headings:
+__Services headings:__
 
-	- Inside the section containing the h2 heading Services, add these elements right after the h2:
-		- create a level 3 heading with text Design & Concept
-		- create a level 3 heading with text Digital Strategy
-		- create a level 3 heading with text Content Strategy
-		- create a level 3 heading with text UX Design
-		- create a level 3 heading with text Web Development
-		- create a level 3 heading with text Social Media
-Works headings:
+	- Inside the section containing the _h2_ heading _Services_, add these elements right after the h2:
+		- create a level 3 heading with text _Design & Concept_
+		- create a level 3 heading with text _Digital Strategy_
+		- create a level 3 heading with text _Content Strategy_
+		- create a level 3 heading with text _UX Design_
+		- create a level 3 heading with text _Web Development_
+		- create a level 3 heading with text _Social Media_
+__Works headings:__
 
-	- Inside the section containing the h2 heading Works:
-		- in the first article, replace the text with a level 3 heading with text Interior Design
-		- in the second article, replace the text with a level 3 heading with text Web Development
-		- in the third article, replace the text with a level 3 heading with text Personal Brand
-About Us headings:
+	- Inside the section containing the _h2_ heading _Works_:
+		- in the first _article_, replace the text with a level 3 heading with text _Interior Design_
+		- in the second _article_, replace the text with a level 3 heading with text _Web Development_
+		- in the third _article_, replace the text with a level 3 heading with text _Personal Brand_
+__About Us headings:__
 
-	- Inside the section containing the h2 heading About Us, after the h2 heading, create these elements in this order:
-		- a level 3 heading with text Who are we
-		- a level 3 heading with text Our culture
-		- a level 3 heading with text How we work
-Latest news headings:
+	- Inside the section containing the _h2_ heading _About Us_, after the _h2_ heading, create these elements in this order:
+		- a level 3 heading with text _Who are we_
+		- a level 3 heading with text _Our culture_
+		- a level 3 heading with text _How we work_
+__Latest news headings:__
 
-	- Inside the section containing the h2 heading Latest news:
-		- in the first article replace the text with a level 3 heading with text Hoc loco tenere se Triarius non potuit.
-		- in the second article replace the text with a level 3 heading with text Ut alios omittam, hunc appello, quem ille unum secutus est.
-		- in the third article replace the text with a level 3 heading with text Bestiarum vero nullum iudicium puto.
+	- Inside the section containing the _h2_ heading _Latest news_:
+		- in the first _article_ replace the text with a level 3 heading with text _Hoc loco tenere se Triarius non potuit_.
+		- in the second _article_ replace the text with a level 3 heading with text _Ut alios omittam, hunc appello, quem ille unum secutus est_.
+		- in the third _article_ replace the text with a level 3 heading with text _Bestiarum vero nullum iudicium puto_.
 __W3C does not need to pass here__
 
 11. Copy the content of 3-index.html into 11-styleguide.html

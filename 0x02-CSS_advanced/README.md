@@ -37,6 +37,7 @@
 3. Based on _styles/2-style.css_:
 
 -Target the root element and define the following custom properties:
+
     - color-primary set to #d73953
 
     - color-black set to #090909
@@ -79,11 +80,15 @@ __Does not need to pass W3C__
 
 - Targeting the root selector, create the following custom properties:
     - font-size-small set to 1.2rem
+
     - font-size-medium set to 1.6rem
+
     - font-size-large set to 1.8rem
+
     - font-size-x-large set to 2.3rem
+
     - font-size-xx-large set to 4.8rem
-    
+
 - All fonts in the html element should be at 62.5% of their normal size
 
 - Any fonts in the body should have their sizes set to font-size-medium

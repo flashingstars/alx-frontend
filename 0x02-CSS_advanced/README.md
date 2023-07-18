@@ -648,3 +648,69 @@ __Does not have to pass w3c__
     - The opacity of these elements should be set to the value of 1
 
 __Does not have to pass w3c__
+
+31. Target the card-quote that is inside the card-testimonial
+
+    - Style it so that the position is relative to its parent
+
+- Target the before pseudo-element of card-quote that is inside the card-testimonial
+
+    - The content should be set to the value \201C
+
+    - Absolutely position the selected elements
+
+    - The vertical position of the selected elements should be -4.5rem
+
+    - The horizontal position from the left should be -1rem
+
+    - The foreground color of the selected elements should be set to #efeded
+
+    - The size of fonts should be 10rem
+
+    - The z-order should be set to -1
+
+__Does not have to pass w3c__
+
+32. __Create some custom properties__
+
+    - Name: transition-duration, Value: .3s
+
+    - Name: transition-cubic-bezier, Value: cubic-bezier(0.17, 0.67, 0, 1.01)
+
+__Add transformations on the card work__
+
+- Target the card-image when card-work is hover
+
+    - Use the transform property to apply a scale transform with a value of scale(1.2)
+
+- Target the card-outer when card-work is hover
+
+    - Use the transform property apply a scale transform to make the elements shrink. Use scale(0.95)
+
+__Add animations on the navigation items__
+
+- Inside .nav .nav-link::before
+
+    - Use the shorthand property transition and have it use the value of var(–transition-duration) var(transition-cubic-bezier)
+
+__Animate the button background__
+
+- In the hover state of the button class
+
+    - The duration of the transition should be set to the variable transition-duration
+
+    - The transition effect should be applied to the color and background-color properties (transition-property)
+
+__Add transitions on the card works__
+
+- Inside card-work:hover .card-image
+
+    - Use the shorthand property transition and have it use the value of var(–transition-duration) var(transition-cubic-bezier)
+
+- Inside .card-work .card-inner
+
+    - Use the shorthand property transition and have it use the value of var(–transition-duration) var(transition-cubic-bezier)
+
+__Does not have to pass w3c__
+
+## 

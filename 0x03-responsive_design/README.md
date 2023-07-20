@@ -11,6 +11,7 @@
 
 ## These are the questions
 
+```plaintext
 0. Because we did some changes with the article.html page in the previous project, our hero banner background is no more visible. Let’s fix it!
 
 - But before that, to ensure we start on the same foot, you should use the starter HTML and CSS provided in the project description.
@@ -230,3 +231,5 @@ This is a simple way to achieve responsive typography. More complex options can 
 			- Property: text-align, Value: center
 		- Target the adjacent lito the li inside the .social.nav and the adjacent li to the li inside .footer-nav (to easily add a left padding starting on the second li)
 			- Property: padding-left, Value:2rem
+
+```
